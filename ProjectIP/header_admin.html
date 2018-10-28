@@ -1,0 +1,98 @@
+<html>
+	
+	<head>
+		<title><?php echo "$page_title"; ?></title>
+		<style>
+			
+			body {
+			  margin: 0;
+			  padding: 0;
+			}
+
+			#navigation-container {
+			  width: 1200px;
+			  margin: 0 auto;
+			  height: 70px;
+			}
+
+			.navigation-bar {
+			  background-color: #020f85;
+			  height: 70px;
+			  width: 100%;
+			  text-align:center;
+			}
+			.navigation-bar img{
+				float:left;
+			}
+			.navigation-bar ul {
+			  padding: 0px;
+			  margin: 0px;
+			  text-align: center;
+			  display:inline-block;
+			  vertical-align:top;
+			}
+
+			.navigation-bar li {
+			  list-style-type: none;
+			  padding: 5px;
+			  height: 24px;
+			  margin-top: 4px;
+			  margin-bottom: 4px;
+			  display: inline;
+			}
+
+			.navigation-bar li a {
+			  color: #fff;
+			  font-size: 16px;
+			  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			  text-decoration: none;
+			  line-height: 70px;
+			  padding: 5px 15px;
+			  opacity: 0.7;
+			}
+
+			#logotext {
+			  color: #7f8bfb;
+			  font-size: 25px;
+			  font-family: "Comic Sans MS", cursive, sans-serif;
+			  float:left;
+			  margin-top: 15px;
+			}
+			
+			li a:hover {
+				background-color: #0214a7;
+				color: #b3b9f6;
+				
+				
+			}
+						
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="navigation-bar">
+
+
+			<div id="navigation-container">
+				
+			<div style="float:left">
+			  <a href="all_products.php"><img src="sneakerlogo.png" width="60" height="60" alt="Sneaker Icon" style="padding-top:5px"><div id="logotext">SneakeRegion</div></a>
+			</div>
+				
+			<div style="float:right">
+			  <ul>
+			  <li><a href="all_products.php">ALL PRODUCTS</a></li>
+				<li><a href="check_order.php">CHECK ORDER</a></li>
+				<li><a href="update_stock.php">UPDATE STOCK</a></li>
+				<li><a href="admin.php">LOG OUT</a></li>
+			  </ul>
+			</div>
+			
+			</div>
+		
+		</div>
+		
+	</body>
+	
+</html>
